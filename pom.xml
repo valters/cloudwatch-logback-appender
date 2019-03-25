@@ -130,6 +130,13 @@
 						<configuration>
 							<showPackage>false</showPackage>
 							<additionalparam>-tag inheritDoc:X ${disableDoclint}</additionalparam>
+                            <!-- workaround for https://bugs.openjdk.java.net/browse/JDK-8212233 -->
+                            <javaApiLinks>
+                                <property>
+                                    <name>foo</name>
+                                    <value>bar</value>
+                                </property>
+                            </javaApiLinks>
 						</configuration>
 					</execution>
 				</executions>
