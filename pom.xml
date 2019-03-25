@@ -26,7 +26,7 @@
 		<aws-version>1.11.524</aws-version>
 		<!-- test dependencies -->
 		<junit-version>4.12</junit-version>
-		<easymock-version>3.6</easymock-version>
+		<easymock-version>4.0.2</easymock-version>
 	</properties>
 	<scm>
 		<url>https://github.com/j256/cloudwatch-logback-appender</url>
